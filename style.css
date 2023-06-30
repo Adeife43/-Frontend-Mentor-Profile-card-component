@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Overpass:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image:  url(images/bg-pattern-bottom.svg);
+    background-repeat: repeat;
+    background-color: hsl(185, 75%, 39%);
+    background-position: bottom ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 54px;
+    margin-bottom: -75px;
+    height: 400px;
+    width: 350px;
+   
+}
+.container-top img{
+   border-top-left-radius:20px;
+   border-top-right-radius: 20px;
+}
+
+.container-image img{
+    width: 100px;
+    border-radius: 50%;
+    height:100px;
+    border: 4px solid #fff;
+    margin-top: -52px;
+    margin-bottom: 20px;
+}
+h2{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+h2 span{
+    color:hsl(227, 10%, 46%) ;
+    font-weight: 400;
+}
+.secondpart-text{
+    font-size: 13px;
+    color:hsl(227, 10%, 46%);
+    margin-bottom:6px;
+}
+.attribute{
+    display:flex;
+    justify-content:space-between ;
+    flex-direction: row;
+    padding: 20px 30px;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+.attribute h4{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.attribute-text{
+    color:hsl(227, 10%, 46%) ;
+    font-size: 13px;
+}
+.attribution { 
+    font-size: 11px; 
+    padding-top: 8em;
+    text-align: center;
+    margin-top: 5px;
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    @media only screen and (max-width: 600px) {
+        .secondpart {
+          width: 90%;
+        }
+      }
+      
+      @media only screen and (max-width: 768px) {
+        .attribution { 
+    font-size: 11px; 
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+    @media only screen and (max-width: 600px) {
+        .firstpart {
+          width: 90%;
+        }
+      }
+      
+      @media only screen and (max-width: 768px) {
+        .firstpart {
+          width: 60%;
+        }
+      }
+} {
+          width: 60%;
+        }
+      }
